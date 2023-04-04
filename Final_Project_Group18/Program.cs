@@ -20,7 +20,7 @@ builder.Services.AddControllersWithViews();
 
 //TODO: Add database on Azure so you have a connection string
 //TODO: Add a connection string here once you have created it on Azure
-String connectionString = "Server = tcp:sp23group18final.database.windows.net,1433; Initial Catalog = sp23group18final; Persist Security Info=False; User ID = MISAdmin; Password =Final123; MultipleActiveResultSets = False; Encrypt = True; TrustServerCertificate = False; Connection Timeout = 30"; //paste your connection string between the double quotes
+String connectionString = "Server = tcp:sp23group18final.database.windows.net,1433; Initial Catalog = sp23group18final; Persist Security Info=False; User ID = MISAdmin; Password =Final123; MultipleActiveResultSets = True; Encrypt = True; TrustServerCertificate = False; Connection Timeout = 30"; //paste your connection string between the double quotes
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
 
 //NOTE: This tells your application how to get a connection to the database
