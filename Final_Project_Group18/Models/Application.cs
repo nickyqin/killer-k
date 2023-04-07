@@ -15,10 +15,10 @@ namespace Final_Project_Group18.Models
         public AppUser Student { get; set; }
 
         [Display(Name = "Status:")]
-        public StatusType Status { get; set; }
+        public StatusType ApplicationStatus { get; set; }
         [Display(Name = "Position:")]
-        public Position Position { get; set; }
+        public Position ApplicationPosition { get; set; }
         [Display(Name = "Company:")]
-        public Company Company { get; set; }
+        public Company ApplicationCompany { get; set; }
     }
 }

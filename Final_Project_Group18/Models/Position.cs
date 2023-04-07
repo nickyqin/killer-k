@@ -22,15 +22,15 @@ namespace Final_Project_Group18.Models
         public PositionType Type { get; set; }
 
         [Display(Name = "Company:")]
-        public Company Company { get; set; }
+        public Company PositionCompany { get; set; }
 
         [Display(Name = "Location:")]
-        public String Location { get; set; }
+        public String PositionLocation { get; set; }
 
         [Display(Name = "Deadline To Apply:")]
-        public DateTime? Deadline { get; set; }
+        public DateTime? PositionDeadline { get; set; }
 
         [Display(Name = "Applicable Majors:")]
-        public String Majors { get; set; }
+        public List<Major> PositionMajors { get; set; }
     }
 }

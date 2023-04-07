@@ -10,7 +10,5 @@ namespace Final_Project_Group18.Models
 
         [Display(Name = "Major")]
         public String MajorName { get; set; }
-
-        //TODO: how do you add a linking table between the major and position?
     }
 }
