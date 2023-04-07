@@ -19,10 +19,10 @@ namespace Final_Project_Group18.Models
         [Display(Name = "Time:")]
         public String InterviewTime { get; set; }
         [Display(Name = "Position:")]
-        public Position Position { get; set; }
+        public Position InterviewPosition { get; set; }
         [Display(Name = "Company:")]
-        public Company Company { get; set; }
+        public Company InterviewCompany { get; set; }
         [Display(Name = "Room:")]
-        public Int32 Room { get; set; }
+        public Int32 InterviewRoom { get; set; }
     }
 }
